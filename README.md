@@ -1,26 +1,23 @@
 ## Description
 
-Basic Paint in plain JavaScript.
+Basic paint in plain JavaScript.
+
+Draw with diferent colors and line sizes, you can also undo and redo. 
+
+You can see a demo [here](https://diesttro.github.io/paint/).
 
 ## Usage
 
-To run the app simply open the index.html file in the /public folder.
-
-To make any changes do it in the /src folder and then rebuild the app.
-
-Before rebuild, make sure you have all the dependencies installed
+Before start make sure you have all the dependecies installed.
 
 ```bash
 npm i
 ```
 
-After making the changes, you can rebuild the app.
+To make any changes do it in /src folder and then rebuild the app.
 
 ```bash
 npm run build
 ```
 
-Now you can open index.html and see the changes.
-
-App made by **Carlos Diestro**
-
+Now you can open index.html in /public folder and see the changes.
