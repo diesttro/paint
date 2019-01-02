@@ -1,0 +1,120 @@
+body
+  font-family: Arial, Helvetica, sans-serif
+  font-size: 16px
+  background-color: #cfd8dc
+
+canvas
+  background-color: #ffffff
+
+.app
+  display: flex
+  padding: 2rem 1rem
+
+.canvas
+  padding: 0 1rem
+
+.tools
+  display: flex
+  padding: 0 1rem
+  flex-direction: column
+  max-width: 215px
+
+.toolbox
+  display: flex
+  flex-wrap: wrap
+
+.button
+  display: inline-block
+  margin: .1rem
+  padding: 0
+  font-size: .8rem
+  background-color: #ffffff
+  color: #212121
+  border: 3px solid #ffffff
+  border-radius: 50%
+  width: 50px
+  height: 50px
+
+  &:hover
+    border-color: #1976d2
+
+  &:focus
+    outline: 0
+
+  &:disabled
+    color: #e0e0e0
+
+.selected
+  border-color: #1976d2
+
+.color
+
+  &-e53935
+    background-color: #e53935
+  
+  &-d81b60
+    background-color: #d81b60
+
+  &-8e24aa
+    background-color: #8e24aa
+
+  &-5e35b1
+    background-color: #5e35b1
+  
+  &-3949ab
+    background-color: #3949ab
+  
+  &-1e88e5
+    background-color: #1e88e5
+
+  &-43a047
+    background-color: #43a047
+
+  &-fdd835
+    background-color: #fdd835
+
+  &-fb8c00
+    background-color: #fb8c00
+
+  &-757575
+    background-color: #757575
+
+  &-000000
+    background-color: #000000
+
+.line-width
+  display: block
+  flex-basis: 20%
+  margin: 0 auto
+  background-color: #000000
+  border-radius: 2rem
+
+  &-10
+    width: 40px
+    height: 10px
+
+  &-14
+    width: 40px
+    height: 14px
+
+  &-18
+    width: 40px
+    height: 18px
+
+  &-22
+    width: 40px
+    height: 22px
+
+@media screen and (max-width: 850px)
+  .app
+    flex-direction: column
+  
+  .tools
+    max-width: 700px
+
+// .select::before 
+//   content: '✔'
+//   position: absolute
+//   top: 15px
+//   left: 18px
+//   color: #ffffff
